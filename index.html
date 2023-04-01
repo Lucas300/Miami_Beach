@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>iMovi</title>
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <title>Miami Beach</title>
+    <link rel="shortcut icon" href="imagens/miami.png" type="image/x-icon" />
     <!-- Google fonts Lato -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -39,8 +39,8 @@
     <nav class="navbar navbar-expand-lg fixed-top bg-primary-color" id="navbar">
       <div class="container py-3">
         <a class="navbar-brand" href="#">
-          <img src="img/imovi-icon.png" alt="iMovi" />
-          <span>iMovi</span>
+          <img src="imagens/miami.png" alt="logo" />
+          <span>Miami Beach</span>
         </a>
         <button
           class="navbar-toggler"
@@ -59,13 +59,13 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Locação</a>
+              <a class="nav-link" href="#locacao">Locação</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Venda</a>
+              <a class="nav-link" href="#venda">Venda</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contato</a>
+              <a class="nav-link" href="#contato">Contato</a>
             </li>
           </ul>
         </div>
@@ -100,22 +100,22 @@
           <div class="carousel-item active">
             <img src="img/banner-1.jpg" class="d-block w-100" alt="Casa 1" />
             <div class="carousel-caption">
-              <h5>Casas planejadas</h5>
-              <a href="#" class="btn btn-dark">Ver Projeto</a>
+              <h5>Mansão Miami</h5>
+              <a href="#" class="btn btn-dark">Ver Casa</a>
             </div>
           </div>
           <div class="carousel-item">
             <img src="img/banner-2.jpg" class="d-block w-100" alt="Casa 2" />
             <div class="carousel-caption">
-              <h5>Projetos Complexos</h5>
-              <a href="#" class="btn btn-dark">Ver Projeto</a>
+              <h5>Casa Ipanema</h5>
+              <a href="#" class="btn btn-dark">Ver Casa</a>
             </div>
           </div>
           <div class="carousel-item">
             <img src="img/banner-3.jpg" class="d-block w-100" alt="Casa 3" />
             <div class="carousel-caption">
-              <h5>Projetos Inovadores</h5>
-              <a href="#" class="btn btn-dark">Ver Projeto</a>
+              <h5>Mansão América</h5>
+              <a href="#" class="btn btn-dark">Ver Casa</a>
             </div>
           </div>
         </div>
@@ -142,106 +142,248 @@
         <div class="row">
           <div class="col-12 col-md-4">
             <div class="card text-center">
-              <i class="bi bi-box primary-color"></i>
+                <i class="bi bi-house"></i>
               <div class="card-body">
-                <h5 class="card-title primary-color">Projetos completos</h5>
-                <p class="card-text secondary-color">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                </p>
-                <a href="#" class="btn btn-dark">Saber Mais</a>
+                <h5 class="card-title primary-color">Locações</h5>
+                <a href="#locacao" class="btn btn-dark">Ver <span class="ms-1">Casas</span></a>
               </div>
             </div>
           </div>
           <div class="col-12 col-md-4">
             <div class="card text-center">
-              <i class="bi bi-layers primary-color"></i>
+                <i class="bi bi-key"></i>
               <div class="card-body">
-                <h5 class="card-title primary-color">Você participa também</h5>
-                <p class="card-text secondary-color">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                </p>
-                <a href="#" class="btn btn-dark">Saber Mais</a>
+                <h5 class="card-title primary-color">Compra de casas</h5>
+                <a href="#venda" class="btn btn-dark">Ver <span class="ms-1">Casas</span></a>
               </div>
             </div>
           </div>
           <div class="col-12 col-md-4">
             <div class="card text-center">
-              <i class="bi bi-lightning-charge"></i>
+              <i class="bi"> <img src="imagens/whatsapp.png" alt="" style="width:1.0em;"></i>
               <div class="card-body primary-color">
                 <h5 class="card-title primary-color">
-                  Adiantamento de entregas
+                  Entre em contato
                 </h5>
-                <p class="card-text secondary-color">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                </p>
-                <a href="#" class="btn btn-dark">Saber Mais</a>
+                <a href="#contato" class="btn btn-dark">Começar conversa</a>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- DESTAQUES -->
+    
+    <!--barra de transição para um novo conteudo-->
+    <div class="container-fluid mt-5" id="locacao">
+        <div class="row justify-content-center align-items-center g-2 ">
+            <div class="col fundo" style="height: 10px; padding-bottom:100px;"></div>
+        </div>
+    </div>
+
+    <!-- Locação -->
     <div class="container" id="featured-container">
       <div class="col-12">
-        <h2 class="title primary-color">Trabalhos em Destaque</h2>
+        <h2 class="title primary-color rounded-2 ps-1" style="background-color:  #d1d4b1; width:20.2em;">Casas litorâneas de alto padrão para Locação</h2>
         <p class="subtitle secondary-color">
-          Conheça nossos projetos mais desafiadores
+          Conheça nossas belas casas para locação
         </p>
       </div>
-      <div class="col-12" id="featured-images">
-        <div class="row g-4">
-          <div class="col-12 col-md-4">
-            <img src="img/project-1.jpg" alt="Projeto 1" class="img-fluid" />
-            <div class="banner-content">
-              <p class="secondary-color">Categoria</p>
-              <h3>Nome do Projeto</h3>
+    </div>
+      <!--Cards-->
+      <div class="container justify-content-center align-items-center mt-5">
+        <div class="row">
+          <!--Primeiro card-->
+        
+            <div class="col-sm-4 text-white p-1 d-flex justify-content-center align-items-center">
+                <div class="card" style="width: 26rem;">
+                    <img src="imagens/banner-1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h2 class="primary-color">Mansão Miami</h2>
+                    <p class="card-text primary-color">LOCALIZADA NO CONDOMINIO MORADA DA PRAIA, EM BERTIOGA SP </p>
+                    </div>
+                </div>
+            </div>
+       
+          <!--Segundo card-->
+          <div class="col-sm-4 text-white p-1 d-flex justify-content-center align-items-center">
+            <div class="card" style="width: 26rem;">
+                <img src="imagens/banner-2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h2 class="primary-color">Casa Ipanema</h2>
+                <p class="card-text primary-color">LOCALIZADA NO CONDOMINIO MORADA DA PRAIA, EM BERTIOGA SP </p>
+                </div>
             </div>
           </div>
-          <div class="col-12 col-md-4">
-            <img src="img/project-2.jpg" alt="Projeto 2" class="img-fluid" />
-            <div class="banner-content">
-              <p class="secondary-color">Categoria</p>
-              <h3>Nome do Projeto</h3>
+          <!--Terceiro card-->
+          <div class="col-sm-4 text-white p-1 d-flex justify-content-center align-items-center">
+            <div class="card" style="width: 26rem;">
+                <img src="imagens/banner-3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h2 class="primary-color">Mansão América</h2>
+                <p class="card-text primary-color">LOCALIZADA NO CONDOMINIO MORADA DA PRAIA, EM BERTIOGA SP </p>
+                </div>
             </div>
           </div>
-          <div class="col-12 col-md-4">
-            <img src="img/project-3.jpg" alt="Projeto 3" class="img-fluid" />
-            <div class="banner-content">
-              <p class="secondary-color">Categoria</p>
-              <h3>Nome do Projeto</h3>
+        </div>  
+      </div>
+      <div class="container justify-content-center align-items-center mt-5">
+        <div class="row">
+          <!--Primeiro card-->
+          <div class="col-sm-4 text-white p-1 d-flex justify-content-center align-items-center">
+            <div class="card" style="width: 26rem;">
+                <img src="imagens/banner-1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h2 class="primary-color">Mansão Miami</h2>
+                <p class="card-text primary-color">LOCALIZADA NO CONDOMINIO MORADA DA PRAIA, EM BERTIOGA SP </p>
+                </div>
             </div>
           </div>
-          <div class="col-12 col-md-4">
-            <img src="img/project-4.jpg" alt="Projeto 4" class="img-fluid" />
-            <div class="banner-content">
-              <p class="secondary-color">Categoria</p>
-              <h3>Nome do Projeto</h3>
+          <!--Segundo card-->
+          <div class="col-sm-4 text-white p-1 d-flex justify-content-center align-items-center">
+            <div class="card" style="width: 26rem;">
+                <img src="imagens/banner-2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h2 class="primary-color">Casa Ipanema</h2>
+                <p class="card-text primary-color">LOCALIZADA NO CONDOMINIO MORADA DA PRAIA, EM BERTIOGA SP </p>
+                </div>
             </div>
           </div>
-          <div class="col-12 col-md-4">
-            <img src="img/project-5.jpg" alt="Projeto 5" class="img-fluid" />
-            <div class="banner-content">
-              <p class="secondary-color">Categoria</p>
-              <h3>Nome do Projeto</h3>
+          <!--Terceiro card-->
+          <div class="col-sm-4 text-white p-1 d-flex justify-content-center align-items-center">
+            <div class="card" style="width: 26rem;">
+                <img src="imagens/banner-3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h2 class="primary-color">Mansão América</h2>
+                <p class="card-text primary-color">LOCALIZADA NO CONDOMINIO MORADA DA PRAIA, EM BERTIOGA SP </p>
+                </div>
             </div>
           </div>
-          <div class="col-12 col-md-4">
-            <img src="img/project-6.jpg" alt="Projeto 6" class="img-fluid" />
-            <div class="banner-content">
-              <p class="secondary-color">Categoria</p>
-              <h3>Nome do Projeto</h3>
+        </div>  
+      </div>
+      <div class="container justify-content-center align-items-center mt-5">
+        <div class="row">
+          <!--Primeiro card-->
+          <div class="col-sm-4 text-white p-1 d-flex justify-content-center align-items-center">
+            <div class="card" style="width: 26rem;">
+                <img src="imagens/banner-1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h2 class="primary-color">Mansão Miami</h2>
+                <p class="card-text primary-color">LOCALIZADA NO CONDOMINIO MORADA DA PRAIA, EM BERTIOGA SP </p>
+                </div>
             </div>
           </div>
+          <!--Segundo card-->
+          <div class="col-sm-4 text-white p-1 d-flex justify-content-center align-items-center">
+            <div class="card" style="width: 26rem;">
+                <img src="imagens/banner-2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h2 class="primary-color">Casa Ipanema</h2>
+                <p class="card-text primary-color">LOCALIZADA NO CONDOMINIO MORADA DA PRAIA, EM BERTIOGA SP </p>
+                </div>
+            </div>
+          </div>
+        </div>  
+      </div>
+      <!--Fim cards-->
+
+      <!--barra de transição para um novo conteudo-->
+    <div class="container-fluid mt-5" id="venda">
+        <div class="row justify-content-center align-items-center g-2 ">
+            <div class="col fundo" style="height: 10px; padding-bottom:100px;"></div>
+        </div>
+    </div>
+      <!-- Venda -->
+    <div class="container" id="featured-container">
+        <div class="col-12">
+            <h2 class="title primary-color rounded-2 ps-1" style="background-color:  #d1d4b1; width:20%;">Casas a Venda</h2>
+          <p class="subtitle secondary-color h4">
+            Compre a casa dos seus sonhos conosco
+          </p>
         </div>
       </div>
+        <!--Cards-->
+        <div class="container justify-content-center align-items-center mt-5">
+          <div class="row">
+            <!--Primeiro card-->
+            <div class="col-sm-4 text-white p-1 d-flex justify-content-center align-items-center">
+              <div class="card" style="width: 26rem;">
+                  <img src="imagens/banner-1.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                  <h2 class="primary-color">Mansão Miami</h2>
+                  <p class="card-text primary-color">LOCALIZADA NO CONDOMINIO MORADA DA PRAIA, EM BERTIOGA SP </p>
+                  </div>
+              </div>
+            </div>
+            <!--Segundo card-->
+            <div class="col-sm-4 text-white p-1 d-flex justify-content-center align-items-center">
+              <div class="card" style="width: 26rem;">
+                  <img src="imagens/banner-2.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                  <h2 class="primary-color">Casa Ipanema</h2>
+                  <p class="card-text primary-color">LOCALIZADA NO CONDOMINIO MORADA DA PRAIA, EM BERTIOGA SP </p>
+                  </div>
+              </div>
+            </div>
+            <!--Terceiro card-->
+            <div class="col-sm-4 text-white p-1 d-flex justify-content-center align-items-center">
+              <div class="card" style="width: 26rem;">
+                  <img src="imagens/banner-3.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                  <h2 class="primary-color">Mansão América</h2>
+                  <p class="card-text primary-color">LOCALIZADA NO CONDOMINIO MORADA DA PRAIA, EM BERTIOGA SP </p>
+                  </div>
+              </div>
+            </div>
+          </div>  
+        </div>
+        <div class="container justify-content-center align-items-center mt-5">
+          <div class="row">
+            <!--Primeiro card-->
+            <div class="col-sm-4 text-white p-1 d-flex justify-content-center align-items-center">
+              <div class="card" style="width: 26rem;">
+                  <img src="imagens/banner-1.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                  <h2 class="primary-color">Mansão Miami</h2>
+                  <p class="card-text primary-color">LOCALIZADA NO CONDOMINIO MORADA DA PRAIA, EM BERTIOGA SP </p>
+                  </div>
+              </div>
+            </div>
+            <!--Segundo card-->
+            <div class="col-sm-4 text-white p-1 d-flex justify-content-center align-items-center">
+              <div class="card" style="width: 26rem;">
+                  <img src="imagens/banner-2.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                  <h2 class="primary-color">Casa Ipanema</h2>
+                  <p class="card-text primary-color">LOCALIZADA NO CONDOMINIO MORADA DA PRAIA, EM BERTIOGA SP </p>
+                  </div>
+              </div>
+            </div>
+            <!--Terceiro card-->
+            <div class="col-sm-4 text-white p-1 d-flex justify-content-center align-items-center">
+              <div class="card" style="width: 26rem;">
+                  <img src="imagens/banner-3.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                  <h2 class="primary-color">Mansão América</h2>
+                  <p class="card-text primary-color">LOCALIZADA NO CONDOMINIO MORADA DA PRAIA, EM BERTIOGA SP </p>
+                  </div>
+              </div>
+            </div>
+          </div>  
+        </div>
+        <!--Fim cards-->
+      
+         <!--barra de transição para um novo conteudo-->
+    <div class="container-fluid mt-5" id="contato">
+        <div class="row justify-content-center align-items-center g-2 ">
+            <div class="col fundo" style="height: 10px; padding-bottom:100px;"></div>
+        </div>
     </div>
     <!-- INFO -->
-    <div class="container" id="info-container">
+    <div class="container mt-5" id="info-container">
       <div class="col-12">
-        <h2 class="title primary-color">Detalhes Importantes</h2>
-        <p class="subtitle secondary-color">
-          Saiba mais sobre a experiência da nossa incrível equipe
+        <h2 class="title primary-color">Quem Somos?</h2>
+        <p class="subtitle secondary-color h5">
+          Contate nossa incrivel equipe
         </p>
       </div>
       <div class="col-12">
@@ -253,37 +395,37 @@
             <div class="row">
               <div class="col-12">
                 <h2 class="title">Estes dados fazem a diferença:</h2>
-                <p class="subtitle secondary-color">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Praesentium tempore fugit et iusto quisquam beatae impedit
-                  nobis quas doloribus, atque, ut id similique eligendi, ab
-                  soluta magnam maxime cum debitis.
+                <p class="subtitle secondary-color h5">
+                 Trabalhamos a mais de 5 anos no ramo de locação e venda de casas de alto padrão, trabalhamos com muita honestidade e comprometimento.
                 </p>
               </div>
               <div class="col-12" id="info-numbers">
                 <div class="row">
                   <div class="col-4">
-                    <h3 class="primary-color">18</h3>
-                    <p class="secondary-color">Anos na construção civil</p>
+                    <h3 class="primary-color">5</h3>
+                    <p class="secondary-color">Anos Trabalhando com Locações</p>
                   </div>
                   <div class="col-4">
-                    <h3 class="primary-color">95</h3>
-                    <p class="secondary-color">Projetos executados</p>
+                    <h3 class="primary-color">100+</h3>
+                    <p class="secondary-color">Locações Realizadas</p>
                   </div>
                   <div class="col-4">
-                    <h3 class="primary-color">639</h3>
-                    <p class="secondary-color">Clientes</p>
+                    <h3 class="primary-color">8</h3>
+                    <p class="secondary-color">Casas para locação</p>
                   </div>
                 </div>
               </div>
               <div class="col-12">
-                <a class="btn btn-dark">Saber Mais</a>
+                <a href="#" class="text-decoration-none"> <img src="imagens/whatsapp.png" alt="" style="width:4.0em;">
+                    <span class="h3 primary-color ">Entre em contanto com nossa Equipe</span>
+                </a>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+    
     <!-- FOOTER -->
     <footer class="container-fluid bg-dark-color" id="footer">
       <div class="container">
@@ -293,7 +435,7 @@
             <div class="row justify-content-between">
               <div class="col-4">
                 <h2>
-                  iMovi
+                  Miami Beach
                 </h2>
               </div>
               <div class="col-4" id="social-icons">
@@ -310,41 +452,40 @@
               <div class="col-12 col-md-4" id="news-container">
                 <h4>Fique por dentro das novidades</h4>
                 <p class="secondary-color">
-                  Inscreva-se para saber em primeira mão
+                  Entraremos em contato
                 </p>
                 <form>
                   <div class="mb-3">
                     <input
                       type="email"
                       class="form-control"
-                      placeholder="Digite o seu e-mail"
+                      placeholder="Digite o seu Numero"
                     />
                   </div>
-                  <button class="btn btn-dark">Inscrever</button>
+                  <button class="btn btn-dark">Enviar</button>
                 </form>
               </div>
               <div class="col-12 col-md-4" id="contact-container">
                 <h4>Formas de contato</h4>
-                <p class="secondary-color">(48)9999-9999</p>
-                <p class="secondary-color">contato@imovi.com</p>
+                <p class="secondary-color">(11)6094-3768</p>
+                <p class="secondary-color">contato@miami.com</p>
               </div>
               <div class="col-12 col-md-4" id="links-container">
                 <div class="row">
                   <h4>Você pode estar buscando por:</h4>
                   <div class="col-6">
                     <ul class="list-unstyled">
-                      <li><a href="#" class="secondary-color">Projetos</a></li>
-                      <li><a href="#" class="secondary-color">Imóveis</a></li>
-                      <li><a href="#" class="secondary-color">Vendas</a></li>
+                      <li><a href="#locacao" class="secondary-color">Locação de imóveis</a></li>
+                      <li><a href="#venda" class="secondary-color">compra de imoveis</a></li>
                     </ul>
                   </div>
                   <div class="col-6">
                     <ul class="list-unstyled">
-                      <li><a href="#" class="secondary-color">Contratar</a></li>
+                      <li><a href="#" class="secondary-color"></a></li>
                       <li>
-                        <a href="#" class="secondary-color">Trabalhe conosco</a>
+                        <a href="#" class="secondary-color"></a>
                       </li>
-                      <li><a href="#" class="secondary-color">Contato</a></li>
+                      <li><a href="#" class="secondary-color"></a></li>
                     </ul>
                   </div>
                 </div>
@@ -355,11 +496,11 @@
           <div class="col-12" id="footer-bottom">
             <div class="row justify-content-between">
               <div class="col-12 col-md-3">
-                <p class="secondary-color">iMovi &copy; 2021</p>
+                <p class="secondary-color">Miami Beach &copy; 2023</p>
               </div>
               <div class="col-12 col-md-3">
                 <p class="secondary-color">
-                  Realizamos o seu projeto com
+                  Venha fazer sua locação conosco
                   <i class="bi bi-heart"></i>
                 </p>
               </div>
